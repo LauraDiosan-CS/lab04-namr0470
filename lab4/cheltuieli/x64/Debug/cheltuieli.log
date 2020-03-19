@@ -1,0 +1,8 @@
+﻿  app.cpp
+  operatii.cpp
+  repoArray.cpp
+  repoSTL.cpp
+C:\Users\Acer\Desktop\oop\lab\lab4\cheltuieli\repoSTL.cpp(25,20): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+  teste.cpp
+  Generating Code...
+  cheltuieli.vcxproj -> C:\Users\Acer\Desktop\oop\lab\lab4\cheltuieli\x64\Debug\cheltuieli.exe
