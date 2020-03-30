@@ -1,4 +1,4 @@
-#include "repoSTL.h"
+#include "repo.h"
 
 #include <iostream>
 #include <ctime> 
@@ -8,25 +8,25 @@ using namespace std;
 
 
 //constructor fara param*
-repoSTL::repoSTL() {
+repo::repo() {
 	this->elem;
 }
 
 //constuctor de copiere*
-repoSTL::repoSTL(const repoSTL& r) {
+repo::repo(const repo& r) {
 	this->elem = r.elem;
 }
 
 
 //adaugarea unui element*
-void repoSTL::addElem(Magazin m) {
+void repo::addElem(Magazin m) {
 	elem.push_back(m);
 }
 
 
 
 //gasirea unui element (true sau false)*
-bool repoSTL::findElem(Magazin m) {
+bool repo::findElem(Magazin m) {
 	vector<Magazin>::iterator it;
 	it = find(elem.begin(), elem.end(), m);
 	if (it != elem.end()) return true;
@@ -35,26 +35,26 @@ bool repoSTL::findElem(Magazin m) {
 }
 
 //dimensiunea vectorului*
-int repoSTL::getSize() {
+int repo::getSize() {
 	return elem.size();
 }
 
 //gasirea elementului dupa o pozitie data*
-Magazin repoSTL::getItemFromPos(int i) {
+Magazin repo::getItemFromPos(int i) {
 	return elem[i];
 }
 
 //destructorul*
-repoSTL::~repoSTL()
+repo::~repo()
 {}
 
 //returnarea tuturor elementelor*
-vector<Magazin> repoSTL::getAll() {
+vector<Magazin> repo::getAll() {
 	return elem;
 }
 
 //stergerea unui element*
-void repoSTL::delElem(Magazin s) {
+void repo::delElem(Magazin s) {
 	for (int i = 0; i < elem.size(); i++) {
 		if (elem[i] == s) {
 			int pos = i;
@@ -64,7 +64,7 @@ void repoSTL::delElem(Magazin s) {
 }
 
 //eliminare dupa pozitie
-vector<Magazin> repoSTL::deleteElem(Magazin s) {
+vector<Magazin> repo::deleteElem(Magazin s) {
 	for (int i = 0; i < elem.size(); i++) {
 		if (elem[i] == s) {
 			int pos = i;
@@ -75,7 +75,7 @@ vector<Magazin> repoSTL::deleteElem(Magazin s) {
 }
 
 //actualizarea unui element*
-void repoSTL::update(Magazin s) {
+void repo::update(Magazin s) {
 	for (int i = 0; i < elem.size(); i++)
 		if (elem[i] == s)
 		{
@@ -108,7 +108,7 @@ void repoSTL::update(Magazin s) {
 }
 
 //incarcarea unor elemente*
-void repoSTL::incarcaElemente() {
+void repo::incarcaElemente() {
 	Magazin m1 = Magazin("deodorant", "12.01.2020", 30);
 	Magazin m2 = Magazin("sapun", "13.01.2020", 10);
 	Magazin m3 = Magazin("faina", "12.05.2020", 90);
@@ -119,7 +119,7 @@ void repoSTL::incarcaElemente() {
 }
 
 //insereaza element pe o pozitie data*
-void repoSTL::insertElem(Magazin& m) {
+void repo::insertElem(Magazin& m) {
 	int pos;
 	cout << "Dati pos";
 	cin >> pos;

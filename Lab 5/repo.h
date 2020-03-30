@@ -4,12 +4,12 @@
 
 using namespace std;
 
-class repoSTL {
+class repo {
 private:
 	vector<Magazin> elem;
 public:
-	repoSTL();
-	repoSTL(const repoSTL& r);
+	repo();
+	repo(const repo& r);
 	void addElem(Magazin);
 	bool findElem(Magazin);
 	vector<Magazin>deleteElem(Magazin);
@@ -20,5 +20,5 @@ public:
 	vector<Magazin> getAll();
 	int getSize();
 	void insertElem(Magazin& m);
-	~repoSTL();
+	~repo();
 };

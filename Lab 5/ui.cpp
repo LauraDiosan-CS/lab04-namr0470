@@ -6,7 +6,7 @@
 #include <string.h>
 #include "teste.h"
 #include "Magazin.h"
-#include "repoSTL.h"
+#include "repo.h"
 
 using namespace std;
 
@@ -129,6 +129,7 @@ void UI::afisaremeniu()
 	cout << "2 - Stergere\n";
 	cout << "3 - Update\n";
 	cout << "4 - Afisare\n";
-	cout << "5 - Exit\n";
+	cout << "5 - Undo\n";
+	cout << "0 - Exit\n";
 	cout << endl << "Alegeti optiunea: ";
 }
