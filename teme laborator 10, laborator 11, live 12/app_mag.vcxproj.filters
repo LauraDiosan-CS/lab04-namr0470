@@ -1,0 +1,153 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\login">
+      <UniqueIdentifier>{ffa4d803-ed87-4e87-936a-7b4886b3f111}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\teste">
+      <UniqueIdentifier>{54920e8b-ce4a-435a-a33c-8ac66e61ec00}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\shopping">
+      <UniqueIdentifier>{d0021658-333c-4d41-b1db-57218011003d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\domain">
+      <UniqueIdentifier>{156d85a1-1a47-4651-b248-fb14e8ca158c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\infrastructure">
+      <UniqueIdentifier>{ab95276a-26d2-44d8-b54f-ec5d4fe5e7eb}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="app_mag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="utils.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cumpara.cpp">
+      <Filter>Header Files\shopping</Filter>
+    </ClCompile>
+    <ClCompile Include="animal.cpp">
+      <Filter>Header Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="articol.cpp">
+      <Filter>Header Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="produs.cpp">
+      <Filter>Header Files\domain</Filter>
+    </ClCompile>
+    <ClCompile Include="validAnimal.cpp">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="validProdus.cpp">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="uiAcc.cpp">
+      <Filter>Header Files\login</Filter>
+    </ClCompile>
+    <ClCompile Include="repoFile.cpp">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="repoFileCSV.cpp">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClCompile>
+    <ClCompile Include="repoFileTXT.cpp">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="utils.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="serviceShop.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="ui.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="account.h">
+      <Filter>Header Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="error.h">
+      <Filter>Header Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="fileRepoAcc.h">
+      <Filter>Header Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="servAcc.h">
+      <Filter>Header Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="validatorUser.h">
+      <Filter>Header Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="testAcc.h">
+      <Filter>Header Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="uiAcc.h">
+      <Filter>Header Files\login</Filter>
+    </ClInclude>
+    <ClInclude Include="testAnimal.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="testProdus.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="testArticol.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="testRepoFile.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="testServShop.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+    <ClInclude Include="cumpara.h">
+      <Filter>Header Files\shopping</Filter>
+    </ClInclude>
+    <ClInclude Include="animal.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="articol.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="produs.h">
+      <Filter>Header Files\domain</Filter>
+    </ClInclude>
+    <ClInclude Include="repoFile.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="repoFileCSV.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="repoFileTXT.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="exceptie.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="validAnimal.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="validator.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="validProdus.h">
+      <Filter>Header Files\infrastructure</Filter>
+    </ClInclude>
+    <ClInclude Include="testLive.h">
+      <Filter>Header Files\teste</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
